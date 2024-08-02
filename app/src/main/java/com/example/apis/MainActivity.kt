@@ -15,7 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
     lateinit var myAdapter: MyAdapter
-    private val BASE_URL = "https://jsonplaceholder.typicode.com/"
+    private val BASE_URL = "https://jsonplaceholder.typicode.com/" // for fetching the data
     lateinit var binding: ActivityMainBinding
 
     @SuppressLint("MissingInflatedId")
